@@ -7,7 +7,10 @@
 		</van-nav-bar>
 		
 		
-		<router-view></router-view>
+		<div class="router-view">
+			<router-view></router-view>
+		</div>
+		
 		
 		<van-tabbar v-model="tabActive" @change="onTabChange" route>
 			<van-tabbar-item icon="home-o" replace to="/home/main">首页</van-tabbar-item>
@@ -55,9 +58,12 @@
 	}
 </script>
 
-<style>
+<style lang="scss">
 	.home-container{
 		
+		.router-view{
+			margin-top: 46px;
+		}
 	}
 	
 	.nav-bar{
