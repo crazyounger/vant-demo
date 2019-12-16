@@ -40,6 +40,7 @@
 	
 	#app{
 		height: 100vh;
+		background: #f0f3f6;
 	}
 	
 	.router-fade-enter-active,

@@ -61,16 +61,21 @@
 <style lang="scss">
 	.home-container{
 		
+		background: #f0f3f6;
+		min-height: 100vh;
+		
+		.nav-bar{
+			background: lightseagreen;
+		}
+		
+		.nav-bar-title{
+			color: #ffffff;
+		}
+		
 		.router-view{
 			margin-top: 46px;
 		}
 	}
 	
-	.nav-bar{
-		background: lightseagreen;
-	}
 	
-	.nav-bar-title{
-		color: #ffffff;
-	}
 </style>
